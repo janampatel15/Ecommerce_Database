@@ -112,8 +112,10 @@ quantity NUMBER(20) NOT NULL,
 order_item varchar2(10) NOT NULL,
 order_ID varchar2(10) NOT NULL,
 constraint Return_line_item_pk primary key (return_ID, return_item_ID),
-constraint Return_line_item_fk_RETURN foreign key (return_ID) references Return(return_ID),
-constraint Return_line_fk_id_ITEM foreign key (order_ID,order_item) references Order_Item(order_ID, order_item_ID));
+constraint Return_line_item_fk_RETURN foreign key (return_ID) references Returns(returns_ID),
+constraint Return_line_fk_id_ITEM foreign key (order_ID,order_item) references Order_Item(order_ID, order_item_ID)
+);
+
 
 -- Review 10
 drop table Review cascade constraints;
