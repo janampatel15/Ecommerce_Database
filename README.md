@@ -13,7 +13,7 @@
 
 ## Team
 
-This project was made with the help of Mariachiara Acconcia, Brian Kong, and Richard Hong.
+This project was made with the help of [Mariachiara Acconcia](https://github.com/MaryAcconcia), Brian Kong, and Richard Hong.
 
 <a name="Summary"/>
 
